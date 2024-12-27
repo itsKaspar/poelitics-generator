@@ -1,0 +1,16 @@
+{
+  "name": "poelitics-generator",
+  "version": "1.0.0",
+  "description": "Node.js project generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {   "generate": "./index.js"},
+  "author": "Poelitics <poelitics@proton.me>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  }
+}

@@ -1,0 +1,106 @@
+/* ##### Variables */
+/* ############### */
+
+:root {
+  --green: #36ed95;
+  --purple: #b685f7;
+  --red: #ff4100;
+  --yellow: #fbe940;
+  --black: #171717;
+  --grey: #eaeaea;
+  --spacing: 30px;
+}
+
+/* ##### Fonts */
+/* ########### */
+
+@font-face {
+    font-family: CommitMono;
+    src: url('../fonts/CommitMono-400-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CommitMono;
+    src: url('../fonts/CommitMono-400-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CommitMono;
+    src: url('../fonts/CommitMono-700-Regular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CommitMono;
+    src: url('../fonts/CommitMono-700-Italic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ##### CSS Reset */
+/* ############### */
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing:border-box;
+}
+
+/* ##### Charter */
+/* ############# */
+
+*{
+  font-size:14px;
+  color:var(--black);
+  font-family:CommitMono;
+  font-weight:400;
+  line-height:1.2em;
+}
+
+h1{
+  font-size:3em;
+  font-weight:700;
+}
+
+h2{
+
+}
+
+/* ##### P5.JS */
+/* ########### */
+
+
+canvas {
+  display: block; /* avoids the bottom-margin an the bottom of a canvas */
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ##### Block */
+/* ########### */
+
+#text{
+  border:1px solid var(--green);
+  padding:var(--spacing);
+  width:500px;
+  height:500px;
+
+  text-align: justify;
+}
+
+#text > *{
+  margin-bottom:var(--spacing);
+}
